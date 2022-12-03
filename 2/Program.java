@@ -2,8 +2,6 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.HashMap;
 
-import javax.imageio.plugins.tiff.FaxTIFFTagSet;
-
 class Program {
     public static void main(String[] args){
         String line;
