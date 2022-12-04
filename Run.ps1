@@ -1,20 +1,20 @@
-echo "===Day 1==="
-cd 1
+Write-Output "===Day 1==="
+Set-Location .\1\
 javac .\Program.java && java Program .\input.txt
-cd ..
+Set-Location ..
 
-echo ""
-echo "===Day 2==="
-cd 2
+Write-Output ""
+Write-Output "===Day 2==="
+Set-Location .\2\
 javac .\Program.java && java Program .\input.txt
-cd ..
+Set-Location ..
 
-echo ""
-echo "===Day 3==="
-cd 3
+Write-Output ""
+Write-Output "===Day 3==="
+Set-Location .\3\
 javac .\Program.java && java Program .\input.txt
-cd ..
+Set-Location ..
 
-echo ""
-echo "===Day 4==="
+Write-Output ""
+Write-Output "===Day 4==="
 dotnet run --project .\4\Program.fsproj
