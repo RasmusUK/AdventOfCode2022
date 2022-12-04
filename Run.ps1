@@ -17,6 +17,4 @@ cd ..
 
 echo ""
 echo "===Day 4==="
-cd 4
-dotnet run
-cd ..
+dotnet run --project .\4\Program.fsproj
