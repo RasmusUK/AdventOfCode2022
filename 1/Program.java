@@ -26,7 +26,7 @@ class Program {
         Collections.sort(calories);
         int best = calories.get(calories.size()-1);
         int top3 = calories.get(calories.size()-1) + calories.get(calories.size()-2) + calories.get(calories.size()-3);
-        System.out.println("Best: " + best);
-        System.out.println("Top 3 total: " + top3);
+        System.out.println("Part 1: " + best);
+        System.out.println("Part 2: " + top3);
     }
 }

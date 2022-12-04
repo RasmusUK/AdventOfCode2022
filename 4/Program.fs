@@ -30,5 +30,5 @@ let rec part2 = function
         else 0 + part2 xs
     | _ -> 0    
 
-printfn "Part1 = %i" (part1 reduced)
-printfn "Part2 = %i" (part2 reduced)
+printfn "Part 1 = %i" (part1 reduced)
+printfn "Part 2 = %i" (part2 reduced)
