@@ -1,4 +1,4 @@
-﻿let lines = List.ofSeq (System.IO.File.ReadLines(__SOURCE_DIRECTORY__ + "/input.txt"))
+﻿let lines = List.ofSeq (System.IO.File.ReadLines(__SOURCE_DIRECTORY__ + "\\input.txt"))
 
 let split (s : string) =
     let half = s.Split(',')
