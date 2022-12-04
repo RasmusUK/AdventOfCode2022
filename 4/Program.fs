@@ -14,7 +14,7 @@ let contains = function
     | _ -> false
 
 let overlaps = function
-    | (s1: int), s2, s3, s4 -> 
+    | s1, s2, s3, s4 -> 
         let list = [s1..s2] @ [s3..s4]
         List.length (List.distinct list) < (List.length list)
 
