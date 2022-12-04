@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "S4MpbxCZA4fm9XcLVVfDdI3pniZ2ZTDdfZUvHs/HOBYeDBS76HbDgK7tgFzfc/tFzT9Nz7nBUiWkOCRMFJ/C1Q==",
+  "success": true,
+  "projectFilePath": "C:\\Git\\AdventOfCode2022\\4\\Program.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rasmu\\.nuget\\packages\\fsharp.core\\6.0.1\\fsharp.core.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
