@@ -15,3 +15,6 @@ Set-Location ..
 
 Write-Output "`n===Day 4==="
 dotnet run --project .\4\Program.fsproj
+
+Write-Output "`n===Day 5==="
+dotnet run --project .\5\Program.fsproj
