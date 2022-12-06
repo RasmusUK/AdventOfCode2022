@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            var input = Lib.Lib.ReadFileFromPath(Directory.GetCurrentDirectory()+"\\input.txt")[0].ToCharArray().ToList();
+            var input = Lib.Lib.ReadInputFile()[0].ToCharArray().ToList();
             Console.WriteLine($"Part 1 = {FindIndex(input, 4)}");
             Console.WriteLine($"Part 2 = {FindIndex(input, 14)}");
         }
