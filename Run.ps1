@@ -21,3 +21,6 @@ dotnet run --project .\5\Program.fsproj
 
 Write-Output "`n===Day 6==="
 dotnet run --project .\6\Program.csproj
+
+Write-Output "`n===Day 7==="
+dotnet run --project .\7\Program.csproj
