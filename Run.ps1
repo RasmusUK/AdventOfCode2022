@@ -24,3 +24,9 @@ dotnet run --project .\6\Program.csproj
 
 Write-Output "`n===Day 7==="
 dotnet run --project .\7\Program.csproj
+
+Write-Output "`n===Day 8==="
+dotnet run --project .\8\Program.csproj
+
+Write-Output "`n===Day 9==="
+dotnet run --project .\9\Program.csproj
