@@ -72,7 +72,7 @@
 
         static (int x, int y) GetPosition(int x) => (x % CRTWidth, x/CRTWidth);
 
-        static bool Draw(int pos, int x) => Math.Abs(pos % 40 - x) < 2;
+        static bool Draw(int pos, int x) => Math.Abs(pos % CRTWidth - x) < 2;
 
         static void PrintArray(string[,] array)
         {       
