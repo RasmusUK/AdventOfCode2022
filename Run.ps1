@@ -36,3 +36,6 @@ dotnet run --project .\10\Program.csproj
 
 Write-Output "`n===Day 11==="
 dotnet run --project .\11\Program.csproj
+
+Write-Output "`n===Day 12==="
+dotnet run --project .\12\Program.csproj
