@@ -39,3 +39,8 @@ dotnet run --project .\11\Program.csproj
 
 Write-Output "`n===Day 12==="
 dotnet run --project .\12\Program.csproj
+
+Write-Output "`n===Day 13==="
+Set-Location .\13\
+node .\Program.js
+Set-Location ..
