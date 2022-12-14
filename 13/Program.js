@@ -4,6 +4,7 @@ let contents = readFileSync("input.txt", 'utf-8');
 let arr = contents.split(/\r?\n/);
 let arrReduced = []
 let arrParsed = []
+
 arr.forEach(e => 
     {
         if(e.length != 0){
