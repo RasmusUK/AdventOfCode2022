@@ -47,3 +47,6 @@ Set-Location ..
 
 Write-Output "`n===Day 14==="
 dotnet run --project .\14\Program.csproj
+
+Write-Output "`n===Day 15==="
+dotnet run --project .\15\Program.csproj
