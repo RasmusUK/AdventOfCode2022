@@ -13,7 +13,7 @@ namespace Program
 
             var part1 = Part1(graph);
             System.Console.WriteLine($"Part 1 = {part1}");
-//
+
             //var part2 = Part2(sensors);
             //System.Console.WriteLine($"Part 2 = {part2}");
         }       
